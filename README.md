@@ -41,7 +41,8 @@ Ephys's format):
 Abbreviated datasets read by the example scripts.
 * `example-1-synth` --
 Analysis script examining a synthetic dataset with known communication
-patterns (generated using the `SynthRobinson` repository).
+patterns (generated using the `SynthRobinson` repository). This looks for
+"routing states" (pairs of channels with directional information flow).
 * `libraries` --
 Symbolic links to the various libraries used by the scripts. These will only
 work on my system; modify them or add library paths to Matlab manually to
